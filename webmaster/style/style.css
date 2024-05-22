@@ -1,0 +1,36 @@
+:root {
+  --biru: #003f62;
+  --orange: #ff9900;
+  --hitam: #2c2c2c;
+  --putih: #ffff;
+}
+
+header {
+  background-color: var(--biru);
+}
+
+.btn-masuk {
+  border-radius: 15px;
+}
+
+.masuk {
+  text-decoration: none;
+  color: var(--putih);
+}
+
+.btn-daftar {
+  border-radius: 15px;
+  border: 2px solid var(--orange);
+}
+
+.daftar {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+/* Daftar */
+
+.login{
+    text-decoration: none;
+    color: var(--orange);
+}

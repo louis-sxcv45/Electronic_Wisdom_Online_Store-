@@ -1,0 +1,57 @@
+:root {
+	--biru: #003f62;
+	--orange: #ff9900;
+	--hitam: #2c2c2c;
+	--putih: #ffff;
+}
+
+header {
+	background-color: var(--biru);
+}
+
+.nav-item{
+	list-style: none;
+}
+.btn-masuk {
+	border-radius: 15px;
+}
+.form-control:focus{
+	box-shadow: none;
+}
+.form-control::placeholder{
+	opacity: 0.5;
+}
+.masuk {
+	text-decoration: none;
+	color: var(--putih);
+}
+
+.btn-daftar {
+	border-radius: 15px;
+	border: 2px solid var(--orange);
+}
+
+.daftar {
+	text-decoration: none;
+	color: var(--orange);
+}
+
+.login {
+	text-decoration: none;
+	color: var(--orange);
+}
+
+.page-user .hide-on-login{
+    display: none;
+}
+
+.container-fluid{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	max-width: 100%;
+}
+
+
